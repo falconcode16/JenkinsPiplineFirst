@@ -1,0 +1,47 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Initiate') {
+            steps {
+                echo 'Initalisation in process'
+            }
+        }
+        
+        stage('Documenting') {
+            steps {
+               echo 'Generating Pipeline'
+            }
+        }
+            
+        stage('Pipeline Sync') {
+            steps{
+                echo 'Syncing'
+            }
+        }
+        
+        stage('Orienting') {
+            steps {
+               echo 'Orentation'
+            }
+        }
+        
+        stage('Delivering') {
+            steps {
+               echo 'fdgsdfgsdf'
+            }
+        }
+        
+        stage('Testing') {
+            steps {
+               echo 'testing in process'
+            }
+        }
+        
+        stage('Result') {
+            steps {
+               echo 'Implementation'
+            }
+        }
+    }
+}
